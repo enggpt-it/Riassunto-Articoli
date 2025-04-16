@@ -2,7 +2,7 @@
 
 Questa applicazione web permette di generare automaticamente punti salienti (bullet points) dai testi di articoli utilizzando il modello GPT-4.1 di OpenAI. L'applicazione estrae i concetti chiave e li presenta in un formato di lista puntata facilmente leggibile.
 
-![Esempio dell'applicazione](https://picsum.photos/seed/summarizer/600/400)
+![Esempio dell'applicazione](https://www.enggpt.it/wp-content/uploads/2025/04/gpt-4-1-applicazione.jpg)
 
 ## Caratteristiche
 
