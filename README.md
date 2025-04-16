@@ -1,4 +1,4 @@
-# Articoli in Pillole con GPT-4.1
+# 📝 Articoli in Pillole con GPT-4.1
 
 Questa applicazione web permette di generare automaticamente punti salienti (bullet points) dai testi di articoli utilizzando il modello GPT-4.1 di OpenAI. L'applicazione estrae i concetti chiave e li presenta in un formato di lista puntata facilmente leggibile.
 
@@ -36,7 +36,7 @@ Questa applicazione web permette di generare automaticamente punti salienti (bul
 Ci sono due modi per configurare la tua API key di OpenAI:
 
 ### Opzione 1: 
-Crea un file .env nella root del progetto con il seguente contenuto:
+Crea un file `.env` nella root del progetto con il seguente contenuto:
 
 ```bash
 OPENAI_API_KEY=sk-your-api-key-here
@@ -55,7 +55,7 @@ openai_api_key = "sk-your-api-key-here"
 
 1. Avvia l'applicazione Streamlit:
    ```bash
-   streamlit run app.py
+   streamlit run article_summarize.py
    ```
 
 2. Apri il browser all'indirizzo indicato (di solito http://localhost:8501)
@@ -66,16 +66,6 @@ openai_api_key = "sk-your-api-key-here"
 
 5. Fai clic su "Genera Riassunto"
 
-## Funzionalità di debugging
-
-L'applicazione include anche una funzione di test (`test_generate_bullet_points`) che può essere utilizzata per verificare la funzionalità di base senza l'interfaccia Streamlit:
-
-```bash
-python app.py
-```
-
-Questa funzione di test verrà eseguita solo se esiste una variabile d'ambiente `OPENAI_API_KEY` valida.
-
 ## Personalizzazioni possibili
 
 - Modificare il prompt nel file per adattarlo a esigenze specifiche
@@ -84,4 +74,4 @@ Questa funzione di test verrà eseguita solo se esiste una variabile d'ambiente 
 
 ## Licenza
 
-[MIT License](LICENSE)
+Questo progetto è rilasciato sotto licenza MIT. Consulta il file [LICENSE](./LICENSE) per maggiori dettagli.
